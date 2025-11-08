@@ -2,6 +2,7 @@ import streamlit as st
 # Import the Google GenAI SDK and the specific error for rate limits
 from google import genai
 from google.generativeai.errors import ResourceExhaustedError
+
 # Import tenacity components
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
