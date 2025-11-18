@@ -1,0 +1,164 @@
+import streamlit as st
+import google.generativeai as genai
+from datetime import datetime
+
+# set_page_config MUST be the first Streamlit command
+st.set_page_config(
+    page_title="Gemini Chatbot",
+    page_icon="🤖",
+    layout="centered"
+)
+
+def setup_gemini(api_key):
+    """Initialize Gemini with API key"""
+    try:
+        if api_key:
+            genai.configure(api_key=api_key)
+            return True
+        return False
+    except Exception as e:
+        st.error(f"Error setting up Gemini: {e}")
+        return False
+
+def get_available_models():
+    """Get available Gemini models"""
+    try:
+        models = genai.list_models()
+        gemini_models = [model.name for model in models if 'gemini' in model.name.lower()]
+        return gemini_models
+    except:
+        return ['models/gemini-pro']
+
+def chat_with_gemini(prompt, model_name='models/gemini-pro'):
+    """Send message to Gemini and get response"""
+    try:
+        model = genai.GenerativeModel(model_name)
+        response = model.generate_content(prompt)
+        return response.text, True
+    except Exception as e:
+        return f"Error: {str(e)}", False
+
+# Main app
+def main():
+    st.title("🤖 Gemini Chatbot")
+    st.markdown("Created by Sudharshan Vijay SK")
+    
+    # Sidebar for configuration
+    with st.sidebar:
+        st.header("Configuration")
+        
+        # API Key input - always show this to user
+        api_key = st.text_input(
+            "Enter your Gemini API Key:",
+            type="password",
+            help="Get your API key from https://aistudio.google.com/",
+            key="api_key_input",
+            placeholder="Paste your API key here..."
+        )
+        
+        if api_key:
+            if setup_gemini(api_key):
+                st.success("✅ API key configured successfully!")
+            else:
+                st.error("❌ Invalid API key")
+        
+        # Model selection (only show if API key is provided)
+        if api_key:
+            available_models = get_available_models()
+            selected_model = st.selectbox(
+                "Select Model:",
+                available_models,
+                index=0,
+                key="model_select"
+            )
+        else:
+            selected_model = 'models/gemini-pro'
+        
+        # Chat controls
+        st.divider()
+        if st.button("Clear Chat History", key="clear_chat"):
+            if 'messages' in st.session_state:
+                st.session_state.messages = []
+            st.rerun()
+        
+        # Display usage info
+        st.divider()
+        st.markdown("### 💡 How to get API Key:")
+        st.markdown("""
+        1. Go to [Google AI Studio](https://aistudio.google.com/)
+        2. Sign in with Google account
+        3. Click "Create API Key"
+        4. Copy and paste it here
+        """)
+        
+        st.markdown("### 📊 Free Tier Limits:")
+        st.markdown("""
+        - 60 requests per minute
+        - 1,000 requests per day
+        - Perfect for personal use!
+        """)
+    
+    # Initialize session state
+    if 'messages' not in st.session_state:
+        st.session_state.messages = []
+    
+    # Check if Gemini is configured
+    if not api_key:
+        st.warning("👆 Please enter your Gemini API key in the sidebar to start chatting.")
+        
+        # Show some information about Gemini
+        st.info("""
+        **About Gemini:**
+        - Google's advanced AI model
+        - Excellent for conversations, coding, and creative tasks
+        - Completely free to use with the free tier
+        - No credit card required for basic usage
+        """)
+        return
+    
+    if not setup_gemini(api_key):
+        st.error("❌ Please check your API key and try again.")
+        return
+    
+    # Display chat messages
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+            if "timestamp" in message:
+                st.caption(f"_{message['timestamp']}_")
+    
+    # Chat input
+    if prompt := st.chat_input("What would you like to know?"):
+        # Add user message to chat history
+        user_message = {
+            "role": "user", 
+            "content": prompt,
+            "timestamp": datetime.now().strftime("%H:%M:%S")
+        }
+        st.session_state.messages.append(user_message)
+        
+        # Display user message
+        with st.chat_message("user"):
+            st.markdown(prompt)
+            st.caption(f"_{user_message['timestamp']}_")
+        
+        # Get AI response
+        with st.chat_message("assistant"):
+            with st.spinner("Gemini is thinking..."):
+                response, success = chat_with_gemini(prompt, selected_model)
+                
+                if success:
+                    st.markdown(response)
+                    # Add assistant response to history
+                    assistant_message = {
+                        "role": "assistant",
+                        "content": response,
+                        "timestamp": datetime.now().strftime("%H:%M:%S")
+                    }
+                    st.session_state.messages.append(assistant_message)
+                else:
+                    st.error(response)
+
+# Run the app
+if __name__ == "__main__":
+    main()
