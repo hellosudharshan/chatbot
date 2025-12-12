@@ -1,0 +1,106 @@
+Name,Email,Phone #,VZ ID,Level,Location,Tech,Team,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,1,2,3,4
+ , , , , , , , ,Mon,Tue,Wed,Thu,Fri,Sat,Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun
+OFFSHORE, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
+MANAGER, , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Swamy, T Kumara",tkswamy@deloitte.com,9177554467, ,Specialist Master,Hyd,Manager,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,W,W,H,H,H,H,R,W,W
+DBA TEAM, , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Gupta, Aman",amangupta85@deloitt.com,9990639501,GUPAM2D,DC Senior Consultant,Gurgoan,DBA/MW,Techops,B,B,B,B,B,W,W,B,B,B,B,B,W,W,B,B,B,B,B,W,W,B,B,B,H,H,W,W,OS,OS,OS,H,B,W,W
+"Shaik, Vaheedbasha",vashaik@deloitte.com,9742564449,SHAIVA5,DC Senior Consultant,Bangaluru,DBA,Techops,B,B,B,B,B,W,W,B,B,B,B,B,W,W,PL,PL,PL,B,B,OS,OS,B,B,B,H,H,W,W,H,H,H,H,B,W,W
+"Srikanth, Suddala",sudsrikanth@deloitte.com,9989595152,SUDDASR,DC Senior Consultant,Hyd,DBA,Techops,B,B,B,B,B,OS,OS,B,B,B,B,B,W,W,B,B,B,B,B,W,W,PL,PL,PL,H,H,W,W,H,H,H,OS,B,OS,OS
+"Narsimha, Chithaluri",cnarasimha@deloitte.com,9494380368,NARACH3,DC Senior Consultant,Hyd,DBA,Techops,B,B,PL,PL,PL,W,W,PL,B,B,B,B,OS,OS,B,B,B,B,B,W,W,B,B,B,OS,OS,OS,OS,H,H,H,H,B,W,W
+"Srinivas, Jerripothula",jesrinivas@deloitte.com  ,9440684150, ,EXT,Hyd,DBA,Techops,R,R,R,R,W,W,A,R,R,R,R,W,W,A,R,R,R,R,W,W,A,R,R,R,R,W,W,A,R,R,R,R,W,W,A
+"Gali, Ganesh Kumar",gagali@deloitte.com,8184970519,GALIGA4,EXT,Hyd,DBA,Techops,R,R,R,R,W,W,B,R,R,R,R,W,W,B,R,R,R,R,W,W,B,R,R,R,R,W,W,B,R,R,R,R,W,W,B
+"Chandrasekhar Reddy, Komma",kchandrasekharreddy@deloitte.com,9963351946, REDCO76,EXT,Banguluru,DBA,Techops,W,R,R,R,R,B,W,R,R,R,R,R,B,W,R,R,R,R,R,B,W,R,R,R,R,R,B,W,W,R,R,R,R,B,W
+"Mani, Swarnavikram",swmani@deloitte.com,8098581960, ,DC Consultant,Hyd,DBA,Techops,B,B,B,B,B,W,W,B,B,B,ASL,ASL,W,W,B,B,B,B,B,W,W,B,B,B,H,H,W,W,H,H,H,H,B,OS,OS
+"Madhu, Sunkari",sumadhu@deloitte.com,7287948774, ,EXT,Hyd,DBA,Techops,CF,CF,B,B,B,W,W,B,B,B,B,B,W,W,B,B,B,B,B,W,W,B,B,B,B,B,OS,OS,B,B,B,B,B,W,W
+MW TEAM, , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Seela, Siva Rama Krishna",sseela@deloitte.com,7702615074,RAMSI5F,DC Senior Consultant,Hyd,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,OS,OS,H,H,H,H,R,W,W
+Naresh Jawaji,janaresh@deloitte.com,9885701415, ,SC,Hyd,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,OS,OS,W,W,H,H,H,H,R,W,W
+"Chekoori, Bhargav",bchekoori@deloitte.com,8792510053, ,Consultant,Hyd,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,W,W,H,H,H,H,R,W,W
+"Venkatanarasimhulu, B",bvenkatanarasimhulu@deloitte.com,9063726656,bommve9,DC Senior Consultant,Banguluru,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,OS,OS,R,R,R,H,H,W,W,OS,OS,H,H,R,W,W
+"Kumar, Madhan",mkumar59@deloitte.com,8098602717, ,DC AnAyst,Chennai,MW,Techops,R,R,ASL,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,W,W,H,H,H,H,R,W,W
+"Suresh, Puttu", putsuresh@deloitte.com,9094921229, ,EXT,Hyd,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,OS,OS,R,R,R,R,R,W,W,R,R,R,H,R,W,W,R,R,R,R,H,W,W
+"Prem, Gujeti",gprem@deloitte.com,7977589989,gujetpr,Consultant,Mumbai,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,W,W,H,H,H,H,R,W,W
+"JYOTHIBABU, KALINTHA",kjyothibabu@deloitte.com,9505524604, ,Consultant,Hyd,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,W,W,H,H,H,H,R,W,W
+"Madasu, Ashok",asmadasu@deloitte.com,9004472777, ,DC Senior Consultant,Hyd,MW,Techops,R,R,R,R,R,OS,OS,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,W,W,H,H,OS,OS,R,OS,OS
+"Balaji, Sivaramgari",sibalaji@deloitte.com,8523048434, ,EXT,Banguluru,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,H,R,R,R,H,W,W
+"Cheruku, Mounika",mocheruku@deloitte.com  ,8099240006, ,EXT,Hyd,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,H,R,R,R,H,W,W
+"Reddy, Koteru Veera Venkata",kotereddy@deloitte.com,9591240436, ,DC Analyst,Hyd,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,W,W,H,H,H,H,R,W,W
+"ABHILASH, VADALA",vaabhilash@deloitte.com,,,Consultant,Hyd,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,W,W,H,H,H,H,R,W,W
+"Kishore, Citra",cikishore@deloitte.com,,,EXT,Hyd,MW,Techops,R,R,R,R,R,W,W,R,R,R,ASL,R,W,W,R,R,R,R,R,W,W,R,R,R,R,H,W,W,R,R,R,R,H,W,W
+"Sruthi, Uppla",usruthi@deloitte.com,,,Consultant,Hyd,MW,Techops,R,R,R,R,ASL,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,W,W,H,H,H,H,R,W,W
+"Nair, Mahesh R",mahesnair@deloitte.com,9497264759,,Consultant,Bangaluru,MW,Techops,R,R,R,ASL,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,W,W,H,H,H,H,R,W,W
+"Kumar, Pitla Santhosh",pitkumar@deloitte.com,9490942017,pitlasa,Consultant,Hyd,MW,Techops,R,R,ASL,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,W,W,H,H,H,H,R,W,W
+DevSecOps TEAM, , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Gupta, Yashika",yashikagupta2@deloitte.com,7518899246,GUPTYA1,DC Consultant,Pune,MW,Techops,R,R,R,ASL,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,W,W,H,H,H,H,R,W,W
+"Thumu, Vikram Kumar",vthumu@deloitte.com,7995780238, ,EXT,Hyd,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,PL,PL,PL,PL,PL,W,W,R,R,R,H,R,W,W,R,R,R,R,H,W,W
+"Lnu, Hithesh A",hitlnu@deloitte.com,8151885073,LNUHI36,EXT,Banguluru,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,H,R,R,R,H,W,W
+"Gupta, Bivek Kumar",bigupta@deloitte.com,8050396038, guptbi8,DC Senior Consultant,Banguluru,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,W,W,H,H,H,H,R,W,W
+"Kumar, Polineni Kalyan",polikumar@deloitte.com,9494344997, ,EXT,Hyd,ELK,Techops,R,R,R,R,R,W,W,R,R,R,R,PL,W,W,R,R,R,R,R,W,W,R,R,R,R,H,W,W,R,R,R,R,H,W,W
+"Gnanavel, V",vgnanavel@deloitte.com,8489591980,GNANAVR,Consultant,Bangaluru,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,W,W,H,H,H,H,R,W,W
+James Bond TEAM ( Licence to call anyone anytime), , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Kasarla, Pragna",prkasarla@deloitte.com,8247735089,KASARPR,DC AnAyst,Hyd,DBA,Techops,BS,B,B,B,B,W,W,ASL,B,B,B,B,W,W,BS,B,B,B,B,W,W,BS,B,B,H,H,W,W,H,H,H,H,B,W,W
+"Godghate, Pranay",pgodghate@deloitte.com,8726394818,GODGHPR,DC AnAyst,Bangaluru,DBA,Techops,A,PL,A,PL,PL,W,W,PL,PL,PL,PL,PL,W,W,A,AS,A,A,AS,W,W,A,AS,A,H,H,W,W,H,H,H,H,AS,W,W
+"Madhavi, Alluri",amadhavi@deloitte.com,7207143048, ,EXT,Hyd,MW,Techops,B,B,BS,B,BS,W,W,BS,B,BS,B,BS,W,W,B,B,BS,B,BS,W,W,B,B,BS,H,BS,W,BS,B,BS,B,W,H,W,W
+"Bethi, Ramya",rabethi@deloitte.com,8329690322, ,DC Consultant,Hyd,DBA,Techops,W,AS,A,A,AS,A,W,W,AS,A,AS,AS,A,W,W,A,A,A,A,A,W,W,A,A,AS,AS,AS,W,W,AS,A,A,A,A,W
+"Paul, Sayan",spaul8@deloitte.com,8777893614,,DC Consultant,Hyd,DBA,Techops,B,B,B,B,B,W,W,B,B,B,B,B,W,W,B,B,B,B,B,W,W,B,B,B,H,H,H,W,W,H,H,H,B,W,W
+"Siddarth, Siddarth",sisiddarth@deloitte.com,7395987120,mpstsi,DC Analyst,Banguluru,MW,Techops,W,ASL,B,B,B,BS,W,W,B,B,B,B,BS,W,W,B,B,B,B,BS,W,W,B,B,H,H,H,W,W,H,H,H,B,BS,W
+"Saivishnu, Eejarlla",esaivishnu@deloitte.com,9490973791, ,DC AnAyst,Hyd,MW,Techops,B,BS,B,BS,W,W,B,B,BS,B,BS,W,W,B,B,BS,B,BS,W,W,B,PL,BS,B,H,H,W,W,H,H,H,H,W,W,B
+"Tripathy, Priyanka",priyatripathy@deloitte.com,7894654930,tripr7n,Associate Ayst,Hyd,MW,Techops,AS,ASL,AS,W,W,W,AS,AS,A,AS,A,W,W,AS,AS,A,AS,A,W,W,AS,AS,A,AS,H,H,W,W,H,H,H,H,W,W,AS
+"Vijay, Sudharshan",sudvijay@deloitte.com,9629175932,vijasu8,Associate Ayst,Banguluru,MW,Techops,W,W,B,B,B,AS,A,W,W,B,B,B,AS,A,W,W,B,B,B,AS,A,W,W,B,BS,W,BS,AS,AS,W,AS,B,BS,AS,A
+"E, Prakash",prakae@deloitte.com,9384013003, ,Associate Ayst,Hyd,MW,Techops,B,B,B,B,W,W,BS,B,B,B,B,W,W,BS,B,B,B,B,W,W,BS,B,B,B,H,H,W,W,H,H,H,H,W,W,BS
+"Kedar, kumar",krkatharakumar@deloitte.com,6292531286,KATHKR9,DC AnAyst,Chennai,MW,Techops,W,A,A,AS,ASL,ASL,W,W,B,B,B,B,B,W,W,B,B,B,B,W,W,B,B,B,B,B,W,W,BS,B,BS,AS,A,A,W
+"Rani, Bolla",brani@deloitte.com,8639374352, ,DC Consultant,Hyd,DBA,Techops,A,A,A,A,A,W,W,A,PL,A,PL,A,W,W,A,A,A,AS,A,W,W,A,A,A,H,H,W,W,H,H,H,H,A,W,W
+INFORMATICA TEAM, , , , , , , ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Gupta, Vaibhav",vaibhavgupta6@deloitte.com,7017626309,GUPVA4W,DC Senior Consultant,Delhi,MW,Techops,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,R,R,W,W,R,R,R,H,H,W,W,H,H,H,H,R,W,W
+"Gudimella, Venkata Chaitanya Kumar",vgudimella@deloitte.com,7989570804, ,DC Consultant,Hyd,MW,Techops,B,B,B,B,B,W,W,B,B,B,B,B,W,W,B,B,B,B,B,W,W,B,B,B,OS,OS,W,W,R,R,R,R,B,W,W
+Shift A, , , , , , , ,3,3,5,3,2,2,3,2,2,3,2,2,2,3,3,4,4,4,3,2,3,3,4,4,1,1,1,2,1,1,2,2,4,3,3
+Shift B, , , , , , , ,11,11,13,13,11,2,3,10,14,15,14,12,3,3,11,13,14,15,13,2,3,11,13,14,3,3,2,2,3,3,3,2,11,2,3
+Shift R, , , , , , , ,27,28,26,26,25,0,0,28,28,28,27,25,0,0,27,27,27,27,25,0,0,28,28,28,8,6,0,0,7,11,11,11,19,0,0
+Planned Leave, , , , , , , ,0,1,1,2,2,0,0,2,2,1,2,2,0,0,2,2,2,1,1,0,0,2,1,1,0,0,0,0,0,0,0,0,0,0,0
+Ad-hoc Sick Leave,,,,,,,,0,2,2,2,2,1,0,1,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Shift N (Expx), , , , , , , ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Shift W, , , , , , , ,6,2,0,1,5,42,41,4,1,0,0,5,42,41,4,1,0,0,5,43,41,3,1,0,35,37,44,43,36,32,31,32,13,42,41
+Shift AS, , , , , , , ,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Shift BS, , , , , , , ,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+OnCall Support, , , , , , , ,0,0,0,0,0,2,2,0,0,0,0,0,2,2,0,0,0,0,0,2,2,0,0,0,3,3,3,3,2,2,2,2,0,3,3
+Total, , , , , , , ,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47,47
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Legends,IST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Shift A,7 AM to 4 PM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Shift B,2PM  to 11 PM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Shift R (Regular),12PM to 9 PM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Shift N (Night),10 PM to 7 AM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,WeekOff - W,NA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Planned Leave - PL,NA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Ad-hoc Sick Leave - ASL,NA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Holiday - H,NA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,AS/BS - Shift Spoc AS/BS,NA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Compensation OFF - CF,NA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,OS ,OnCall Support,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
